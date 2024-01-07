@@ -1,0 +1,92 @@
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.5em;
+  color: black;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#Education table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-size: 22px;
+}
+
+#Education th,
+#Education td {
+  border: 1px solid #0d0b0b;
+  padding: 10px;
+  text-align: left;
+  font-size: 22px;
+}
+
+#Education th {
+  background-color: #a9a9a9;
+}
+
+#Skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Skills .skills-wrapper,
+#Skills .Hobbies-wrapper,
+#Skills .lang-wrapper,
+#Skills .IP {
+  background-color: #a9a9a9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 49%;
+}
+
+#Skills p,
+.Contact-wrapper p,
+#About .About-wrapper p,
+#Education p,
+#Skills .skills-wrapper p,
+#Skills .Hobbies-wrapper p,
+#Skills .lang-wrapper p,
+#Skills .IP p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.Contact-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  background-color: #a9a9a9;
+  padding: 0px;
+  border-radius: 8px;
+}
+
+#About .About-wrapper {
+  background-color: #a9a9a9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: auto;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0d0b0b;
+}
+
+.container {
+  background-color: antiquewhite;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
